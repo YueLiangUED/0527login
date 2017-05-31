@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" />  
+        <meta name="apple-mobile-web-status-bar-style" content="black" />
+        <meta name="format-detecition" content="telephone=no" /> 
+        <meta content="email=no" name="format-detection" />
+        <!-- 将REM计算写在css加载前避免出现页面加载瞬间布局错乱 -->
+        <script type="text/javascript">
+            ;(function(a){function b(){document.documentElement.style.fontSize=20*document.documentElement.clientWidth/750+"px"}b();a.addEventListener("resize",function(){document.documentElement.style.fontSize=20*document.documentElement.clientWidth/750+"px"},false);setTimeout(function(){},100)}(window));
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/reset.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>登录</title>
+    </head>
+    <body style="visibility:hidden;">
+        <div class="wrapper">
+            <div class="login_pic">
+                <img src="images/login_pic.png" alt="" />
+            </div>
+            <form action="" class="form">
+                <div class="form-group icon_phone">
+                    <input type="text" placeholder="手机号" />
+                </div>
+                <div class="form-group icon_pass">
+                    <input type="password" placeholder="密码" />
+                </div>
+                <div class="submit">
+                    <input type="button" value="登录" />
+                </div>
+            </form>
+            <div class="login_link">
+                <a href="regist.html" >立即注册</a>
+                <i class="line">&nbsp;</i>
+                <a href="resetpass.html">忘记密码</a>
+            </div>
+            <div class="footer">
+                <img src="images/login_foote.png" alt="">
+            </div>
+        </div>
+        <script type="text/javascript">setTimeout(function (){document.getElementsByTagName('body')[0].style.visibility='visible';},100)</script>
+        <script src="js/zepto.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+/*login页头图*/
+.login_pic {
+    margin-bottom: 2rem;
+}
+.login_pic img {
+    display: block;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+/*login找回密码样式*/
+.login_link {
+    text-align: center;
+}
+.login_link a {
+    font-size: 1.5rem;
+    color: #666666;
+}
+.login_link .line {
+    display: inline-block;
+    margin: 3.35rem 1.3rem 0;
+    width: 0;
+    height: 1.5rem;
+    border-right: 1px solid #0b8af0;
+}
